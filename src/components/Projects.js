@@ -42,7 +42,7 @@ function Projects() {
     { id: 1, title: 'OutThere', language: 'Java, JavaFX', description: 'A small event finder, for individuals to advertise street performances, art events, small concerts, and food events', image: image1, link: 'https://github.com/julianmackenzie/SparkHacks2023' },
     { id: 2, title: 'LearningBook', language: 'HTML, CSS, JavaScript', description: 'A web prototype for a mobile app which aims to improve English proficiency through reading, vocabulary, audio, and translation', image: image2, link: 'https://github.com/Rsanch40/CS-422-Project' },
     { id: 3, title: 'Endangered Species Analysis', language: 'Python, SQL', description: 'A data analysis project that looks into endangered species and the cause of their endangerment. Includes analysis from Machine Learning techniques such as Neural Networks', image: image3, link: 'https://github.com/uic-ds-fall-2023/endangered-species-analysis-datax'},
-    { id: 4, title: 'Portfolio Website', language: 'HTML, CSS, JavaScript, React', description: 'This Website!', image: image4, link: '#home' },
+    { id: 4, title: 'Portfolio Website', language: 'HTML, CSS, JavaScript, React', description: 'This Website!', image: image4, link: 'https://github.com/Rsanch40/MyPortfolioWebsite' },
     { id: 5, title: 'Client Website', language: 'React, Tailwind CSS, Next.js', description: 'Car Detailing Website for a client. In progress...'},
   ];
 
