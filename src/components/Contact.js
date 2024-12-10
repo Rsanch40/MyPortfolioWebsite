@@ -25,9 +25,11 @@ function Contact() {
         </a>
 
       </div>
+      {/*
       <div className="contact-image">
         <img src='../images/learningBookPic.png' alt="Profile or placeholder" />
       </div>
+      */}
       <footer className="contact-footer">
         <p>© 2024 Made by Rafael Sanchez Jr</p>
       </footer>
