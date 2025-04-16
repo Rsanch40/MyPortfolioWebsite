@@ -20,7 +20,7 @@ function Contact() {
         <a href="https://github.com/Rsanch40" target="_blank" rel="noopener noreferrer">
           <img src={githubIcon} style={{ width: '30px', height: '30px' }} alt="github" className="contact-icon" />
         </a>
-        <a href="/Rafael_Sanchez_Jr's_Resume.pdf" download="Rafael_Sanchez_Jr's_Resume.pdf">
+        <a href="/Rafael Sanchez Jr's Resume(2025).pdf" download="Rafael_Sanchez_Jr's_Resume.pdf">
           <img src={documentIcon} style={{ width: '30px', height: '30px' }} alt="Resume" className="contact-icon" />
         </a>
 
