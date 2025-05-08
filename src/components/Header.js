@@ -11,6 +11,9 @@ import htmlIcon from '../images/html.png';
 import cssIcon from '../images/css-3.png';
 import jsIcon from '../images/js.png';
 
+import ParticleBackground from './AnimatedBackground';
+
+
 function Header() {
   const fade = useSpring({
     from: { opacity: 0, transform: 'translateY(20px)' },
@@ -18,13 +21,15 @@ function Header() {
     config: { duration: 1500 },
   });
 
+  
   return (
-    
     <header id="home" className="header">
+      <ParticleBackground />
       <div className='title-section'>
       <animated.h1 style={fade}>Hello, I'm <span className="highlight">Rafael Sanchez</span> </animated.h1>
         <animated.h2 style={fade}>A <span className="highlight">Software Engineer</span> based in Chicago, Illinois</animated.h2>
       </div>
+      
     
       <div className="about-section">
       <animated.h3 style={fade}>I enjoy building web applications and crafting efficient, scalable systems utilizing the skills I posses in the following languages: </animated.h3>
